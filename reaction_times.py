@@ -96,7 +96,7 @@ trial_RT_allsubj = nan * ones([500, n_subjects])
 
 for i_subj in xrange(n_subjects):
 
-	file=open('../../pilot_data/Ver_'+str(str_AB)+'/034_MAZ_'+str(id_list[i_subj])+'/034_MAZ_'+str(id_list[i_subj])+'_'+str(str_AB)+'.txt','r')
+	file=open('../mazegame/pilot_data/Ver_'+str(str_AB)+'/034_MAZ_'+str(id_list[i_subj])+'/034_MAZ_'+str(id_list[i_subj])+'_'+str(str_AB)+'.txt','r')
 	fl=file.readlines()
 	file.close()
 
